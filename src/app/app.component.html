@@ -1,10 +1,101 @@
-<h1>Ndimphiwe Mayekiso</h1>
-<h3>Web Developer - Frontend</h3>
-<app-contact-info></app-contact-info>
-<app-links></app-links>
-<app-skills></app-skills>
-<app-bio></app-bio>
-<app-employment-history></app-employment-history>
-<app-projects></app-projects>
-<app-education></app-education>
-<app-references></app-references>
+<div class="container-fluid py-3 position-fixed" style="z-index: 1050;">
+  <div class="row justify-content-center">
+    <div class="col-md-10">
+      <div class="row align-items-center">
+        <div class="col-auto">
+          <a href="#!">Home (Logo)</a>
+        </div>
+        <div class="col">
+          <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link active" href="#!">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#!">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#!">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#!">Works</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#!">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<section id="about" class="c-section c-section__featured d-flex align-items-center" style="min-height: 100vh;">
+  <div class="container-fluid">
+    <div class="row justify-content-center">
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-md-7">
+            <h1>Ndimphiwe</h1>
+            <h2>Mayekiso</h2>
+            <app-links></app-links>
+          </div>
+          <div class="col-md-5">
+            <h6>About me</h6>
+            <app-bio></app-bio>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="services" class="c-section c-section__featured d-flex align-items-center" style="min-height: 100vh;">
+  <div class="container-fluid">
+    <div class="row justify-content-center">
+      <div class="col-12 text-center">
+        <h5>Services</h5>
+        <h1>What do I do?</h1>
+      </div>
+      <div class="col-md-6">
+          <app-services></app-services>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="skills" class="c-section c-section__featured d-flex align-items-center" style="min-height: 100vh;">
+  <div class="container-fluid">
+    <div class="row justify-content-center">
+      <div class="col-12 text-center">
+        <h5>Skills</h5>
+        <h1>How do I do it?</h1>
+      </div>
+      <div class="col-md-10">
+          <app-skills></app-skills>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="works" class="c-section c-section__featured d-flex align-items-center" style="min-height: 100vh;">
+  <div class="container-fluid">
+    <div class="row justify-content-center">
+      <div class="col-12 text-center">
+        <h5>Works</h5>
+        <h1>What have I done?</h1>
+      </div>
+      <div class="col-md-6">
+          <app-projects></app-projects>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="contact" class="c-section c-section__featured d-flex align-items-center" style="min-height: 100vh;">
+  <div class="container-fluid">
+    <div class="row justify-content-center">
+      <div class="col-12 text-center">
+        <h5>Contact me</h5>
+        <h1>Get in touch.</h1>
+      </div>
+      <div class="col-md-6">
+          <app-contact-info></app-contact-info>
+      </div>
+    </div>
+  </div>
+</section>

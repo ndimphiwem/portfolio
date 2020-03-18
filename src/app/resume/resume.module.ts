@@ -8,6 +8,7 @@ import { ReferencesComponent } from './references/references.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { EducationComponent } from './education/education.component';
 import { LinksComponent } from './links/links.component';
+import { ServicesComponent } from './services/services.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { LinksComponent } from './links/links.component';
     ReferencesComponent,
     ProjectsComponent,
     EducationComponent,
-    LinksComponent
+    LinksComponent,
+    ServicesComponent
   ],
   imports: [CommonModule],
   exports: [
@@ -29,7 +31,8 @@ import { LinksComponent } from './links/links.component';
     ReferencesComponent,
     ProjectsComponent,
     EducationComponent,
-    LinksComponent
+    LinksComponent,
+    ServicesComponent
   ]
 })
 export class ResumeModule {}
