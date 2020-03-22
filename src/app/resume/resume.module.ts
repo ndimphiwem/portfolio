@@ -9,6 +9,7 @@ import { ProjectsComponent } from './projects/projects.component';
 import { EducationComponent } from './education/education.component';
 import { LinksComponent } from './links/links.component';
 import { ServicesComponent } from './services/services.component';
+import { UtilsModule } from '../utils/utils.module';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,7 @@ import { ServicesComponent } from './services/services.component';
     LinksComponent,
     ServicesComponent
   ],
-  imports: [CommonModule],
+  imports: [CommonModule, UtilsModule],
   exports: [
     BioComponent,
     ContactInfoComponent,

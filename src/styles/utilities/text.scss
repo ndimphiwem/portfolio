@@ -1,0 +1,46 @@
+.text {
+  &__lead {
+    font-size: 7em;
+  }
+  &__sublead{ 
+    font-size: 6em;
+  }
+  &__header-link {
+    font-weight: 500;
+    font-size: 1.5em;
+    color: rgba(255, 255, 255, 0.4);
+    &.active {
+      color: $primary-color;
+      &::after {
+        position: absolute;
+        bottom: -25px;
+        left: 50%;
+        content: "\2022";
+        font-size: 1.5em;
+      }
+    }
+    &:hover {
+      color: $primary-color;
+    }
+    &:focus {
+      color: $primary-color;
+    }
+  }
+
+  &--primary {
+    color: $primary-color;
+  }
+  &--sm {
+    font-size: 0.85em;
+  }
+  &--md {
+    font-size: 1.5em;
+  }
+  &--lg {
+    font-size: 2.5rem;
+  }
+  &--ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}

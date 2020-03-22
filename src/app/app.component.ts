@@ -7,5 +7,11 @@ import { bio, contactInfo, education, jobHistory, links, projects, references, s
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+  bio = bio;
+  contactInfo = contactInfo;
+  links = links;
+  projects = projects;
+  references = references;
+  skills = skills;
   title = 'portfolio';
 }

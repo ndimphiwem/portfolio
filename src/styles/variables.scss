@@ -1,0 +1,16 @@
+// Typography
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600,800|Open+Sans&display=swap');
+
+$montserrat-font-family: 'Montserrat', sans-serif;
+
+// Colors
+$yellow-1: #ffc25c; 
+$yellow-2: #F2C94C;
+
+$primary-color: #ffc25c;
+$secondary-color: #2F80ED;
+
+$colors: (
+  primary: $primary-color,
+  secondary: $secondary-color
+) !default;

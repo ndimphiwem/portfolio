@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { ResumeModule } from './resume/resume.module';
+import { UtilsModule } from './utils/utils.module';
 
 @NgModule({
   declarations: [
@@ -10,6 +11,7 @@ import { ResumeModule } from './resume/resume.module';
   ],
   imports: [
     BrowserModule,
+    UtilsModule,
     ResumeModule
   ],
   providers: [],

@@ -3,24 +3,26 @@
     <div class="col-md-10">
       <div class="row align-items-center">
         <div class="col-auto">
-          <a href="#!">Home (Logo)</a>
+          <a class="text__header-link" href="#!">
+            <i appSvg [svgName]="'logo'"></i>
+          </a>
         </div>
         <div class="col">
           <ul class="nav justify-content-end">
             <li class="nav-item">
-              <a class="nav-link active" href="#!">About</a>
+              <a class="nav-link text__header-link position-relative active" href="#!">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#!">Services</a>
+              <a class="nav-link text__header-link position-relative" href="#!">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#!">Skills</a>
+              <a class="nav-link text__header-link position-relative" href="#!">Skills</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#!">Works</a>
+              <a class="nav-link text__header-link position-relative" href="#!">Works</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#!">Contact</a>
+              <a class="nav-link text__header-link position-relative" href="#!">Contact</a>
             </li>
           </ul>
         </div>
@@ -34,13 +36,13 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-md-7">
-            <h1>Ndimphiwe</h1>
-            <h2>Mayekiso</h2>
-            <app-links></app-links>
+            <h1 class="text__lead mb-0">Ndimphiwe</h1>
+            <h2 class="text__sublead">Mayekiso</h2>
+            <app-links [links]="links"></app-links>
           </div>
           <div class="col-md-5">
-            <h6>About me</h6>
-            <app-bio></app-bio>
+            <h6 class="text--primary font-weight-bold mb-5">About me</h6>
+            <app-bio [bio]="bio"></app-bio>
           </div>
         </div>
       </div>
@@ -51,8 +53,8 @@
   <div class="container-fluid">
     <div class="row justify-content-center">
       <div class="col-12 text-center">
-        <h5>Services</h5>
-        <h1>What do I do?</h1>
+        <h5 class="text--primary font-weight-bold mb-5">Services</h5>
+        <h1 class="mb-5">What do I do?</h1>
       </div>
       <div class="col-md-6">
           <app-services></app-services>
@@ -64,11 +66,11 @@
   <div class="container-fluid">
     <div class="row justify-content-center">
       <div class="col-12 text-center">
-        <h5>Skills</h5>
-        <h1>How do I do it?</h1>
+        <h5 class="text--primary font-weight-bold mb-5">Skills</h5>
+        <h1 class="mb-5">How do I do it?</h1>
       </div>
       <div class="col-md-10">
-          <app-skills></app-skills>
+          <app-skills [skills]="skills"></app-skills>
       </div>
     </div>
   </div>
@@ -77,8 +79,8 @@
   <div class="container-fluid">
     <div class="row justify-content-center">
       <div class="col-12 text-center">
-        <h5>Works</h5>
-        <h1>What have I done?</h1>
+        <h5 class="text--primary font-weight-bold mb-5">Works</h5>
+        <h1 class="mb-5">What have I done?</h1>
       </div>
       <div class="col-md-6">
           <app-projects></app-projects>
@@ -90,8 +92,8 @@
   <div class="container-fluid">
     <div class="row justify-content-center">
       <div class="col-12 text-center">
-        <h5>Contact me</h5>
-        <h1>Get in touch.</h1>
+        <h5 class="text--primary font-weight-bold mb-5">Contact me</h5>
+        <h1 class="mb-5">Get in touch.</h1>
       </div>
       <div class="col-md-6">
           <app-contact-info></app-contact-info>
