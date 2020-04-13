@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { bio, contactInfo, education, jobHistory, links, projects, references, skills } from './content/profile';
+import { bio, contactInfo, education, jobHistory, links, projects, references, skills, services } from './content/profile';
 
 @Component({
   selector: 'app-root',
@@ -13,5 +13,6 @@ export class AppComponent {
   projects = projects;
   references = references;
   skills = skills;
+  services = services;
   title = 'portfolio';
 }

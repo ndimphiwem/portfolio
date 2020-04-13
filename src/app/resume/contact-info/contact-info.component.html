@@ -1,11 +1,18 @@
 <div class="row">
     <div class="col-md-6">
-        <p>+27711234567</p>
-        <p>test@test.com</p>
-        <p>ndimphiwe_m</p>
+      <a [href]="contact?.link" class="text-reset" *ngFor="let contact of contactInfo">
+        <div class="row mb-3">
+          <div class="col-auto">
+            <i appSvg [svgName]="contact?.icon" [svgClass]="'icon__tech'"></i>
+          </div>
+          <div class="col">
+            {{contact?.info}}
+          </div>
+        </div>
+      </a>
     </div>
     <div class="col-md-6">
-        <form>
+      <form name="contact" method="POST" data-netlify-recaptcha="true" data-netlify="true">
             <div class="row">
               <div class="col-12 mb-3">
                 <input type="text" class="form-control" placeholder="Name">
@@ -20,7 +27,7 @@
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="How can I help you?"></textarea>
               </div>
               <div class="col-12">  
-                <button type="button" class="btn btn-primary btn-lg mb-2">Let's talk</button>
+                <button class="btn btn-primary btn-lg mb-2" type="submit">Let's talk</button>
               </div>
             </div>
           </form>

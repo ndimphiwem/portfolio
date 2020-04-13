@@ -3,26 +3,31 @@
     <div class="col-md-10">
       <div class="row align-items-center">
         <div class="col-auto">
-          <a class="text__header-link" href="#!">
+          <a class="text__header-link"  routerLink="/" routerLinkActive="" [routerLinkActiveOptions]="{ exact: true }">
             <i appSvg [svgName]="'logo'"></i>
           </a>
         </div>
         <div class="col">
           <ul class="nav justify-content-end">
             <li class="nav-item">
-              <a class="nav-link text__header-link position-relative active" href="#!">About</a>
+              <a class="nav-link text__header-link position-relative"
+                  routerLink="/" fragment="about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text__header-link position-relative" href="#!">Services</a>
+              <a class="nav-link text__header-link position-relative"
+                  routerLink="/" fragment="services">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text__header-link position-relative" href="#!">Skills</a>
+              <a class="nav-link text__header-link position-relative" 
+                 routerLink="/" fragment="skills">Skills</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text__header-link position-relative" href="#!">Works</a>
+              <a class="nav-link text__header-link position-relative" 
+                 routerLink="/" fragment="works">Works</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text__header-link position-relative" href="#!">Contact</a>
+              <a class="nav-link text__header-link position-relative" 
+                 routerLink="/" fragment="contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -56,8 +61,8 @@
         <h5 class="text--primary font-weight-bold mb-5">Services</h5>
         <h1 class="mb-5">What do I do?</h1>
       </div>
-      <div class="col-md-6">
-          <app-services></app-services>
+      <div class="col-12">
+          <app-services [services]="services"></app-services>
       </div>
     </div>
   </div>
@@ -69,7 +74,7 @@
         <h5 class="text--primary font-weight-bold mb-5">Skills</h5>
         <h1 class="mb-5">How do I do it?</h1>
       </div>
-      <div class="col-md-10">
+      <div class="col-lg-10">
           <app-skills [skills]="skills"></app-skills>
       </div>
     </div>
@@ -82,8 +87,8 @@
         <h5 class="text--primary font-weight-bold mb-5">Works</h5>
         <h1 class="mb-5">What have I done?</h1>
       </div>
-      <div class="col-md-6">
-          <app-projects></app-projects>
+      <div class="col-12">
+          <app-projects [projects]="projects"></app-projects>
       </div>
     </div>
   </div>
@@ -96,7 +101,7 @@
         <h1 class="mb-5">Get in touch.</h1>
       </div>
       <div class="col-md-6">
-          <app-contact-info></app-contact-info>
+          <app-contact-info [contactInfo]="contactInfo"></app-contact-info>
       </div>
     </div>
   </div>

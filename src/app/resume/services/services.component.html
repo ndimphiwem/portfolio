@@ -1,40 +1,12 @@
-<div class="row">
-  <div class="col-md-4 mb-3">
-    <div class="card">
-      <img src="https://via.placeholder.com/640x360" class="card-img-top" alt="..." />
+<div class="row justify-content-center">
+  <div class="col-md-6 col-lg-3 mb-3" *ngFor="let service of services">
+    <div class="card text-center" style="height: 300px; padding-top: 25px;">
+      <i appSvg [svgName]="service?.icon"></i>
       <div class="card-body text-center">
-        <h5 class="card-title">Web Development</h5>
+        <h5 class="card-title text--primary">{{ service?.service }}</h5>
         <p class="card-text">
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+          {{ service?.description }}
         </p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
-      </div>
-    </div>
-  </div>
-  <div class="col-md-4 mb-3">
-    <div class="card">
-      <img src="https://via.placeholder.com/640x360" class="card-img-top" alt="..." />
-      <div class="card-body text-center">
-        <h5 class="card-title">UI/UX Design</h5>
-        <p class="card-text">
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
-      </div>
-    </div>
-  </div>
-  <div class="col-md-4 mb-3">
-    <div class="card">
-      <img src="https://via.placeholder.com/640x360" class="card-img-top" alt="..." />
-      <div class="card-body text-center">
-        <h5 class="card-title">UI/UX Development</h5>
-        <p class="card-text">
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
       </div>
     </div>
   </div>

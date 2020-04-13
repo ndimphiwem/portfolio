@@ -6,6 +6,7 @@ import { links } from './links';
 import { projects } from './projects';
 import { references } from './references';
 import { skills } from './skills';
+import { services } from './services';
 
-export { bio, contactInfo, education, jobHistory, links, projects, references, skills };
+export { bio, contactInfo, education, jobHistory, links, projects, references, skills, services };
 

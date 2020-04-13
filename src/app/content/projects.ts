@@ -1,17 +1,69 @@
 export const projects = [
+  // {
+  //   title: 'Sports Betting Application',
+  //   startDate: 'Apr 2019',
+  //   endDate: 'Present',
+  //   description: `Developing an event-driven sports-betting application with multiple integrations
+  //   for a sports-betting brand serviced by Osiris Trading.`,
+  //   techStack: [
+  //     'NodeJS',
+  //     'Angular 6+',
+  //     'SASS/CSS',
+  //     'TypeScript',
+  //     'HTML5',
+  //     'Azure DevOps'
+  //   ],
+  //   link: '',
+  //   image: ``
+  // },
   {
-    title: 'Sports Betting Application',
-    startDate: 'Apr 2019',
-    endDate: 'Present',
-    description: `Developing an event-driven sports-betting application with multiple integrations
-    for a sports-betting brand serviced by Osiris Trading.`,
+    title: 'Cuddlers',
+    description: `Creating and maintaining CMS modules for the Cuddlers website,
+    and redesigning the content site UI,
+    including but not limited to creating a competitions module that would allow users to add and administrate competitions
+    in the back-end portal that would automatically be visualized on the website,
+    also leading to detail pages for each competition.`,
     techStack: [
-      'NodeJS',
-      'Angular 6+',
-      'SASS/CSS',
-      'TypeScript',
-      'HTML5',
-      'Azure DevOps'
-    ]
+      { skill: 'C#', icon: 'c-sharp' },
+      { skill: 'jQuery', icon: 'jquery' },
+      { skill: 'JavaScript', icon: 'javascript' },
+      { skill: 'HTML5', icon: 'html' },
+      { skill: 'CSS3', icon: 'css' },
+      { skill: 'Sitefinity CMS' }
+    ],
+    link: 'https://www.cuddlers.co.za/',
+    image: '/assets/images/cuddlers.jpg'
+  },
+  {
+    title: 'Plascon',
+    description: `Creating and maintaining CMS modules for the Plascon content website,
+    including but not limited to creating a products module that would allow users to add and
+    administrate products in the back-end tools that would automatically be visualized on the front-end products page,
+    also leading to detail pages for each product.`,
+    techStack: [
+      { skill: 'C#', icon: 'c-sharp' },
+      { skill: 'jQuery', icon: 'jquery' },
+      { skill: 'JavaScript', icon: 'javascript' },
+      { skill: 'HTML5', icon: 'html' },
+      { skill: 'CSS3', icon: 'css' },
+      { skill: 'Sitefinity CMS' }
+    ],
+    link: 'https://plascon.com/',
+    image: '/assets/images/plascon.jpg'
+  },
+  {
+    title: 'Firewater',
+    description: `Creating and maintaining the Firewater agency website, creating and maintaining CMS modules for content management,
+    including but not limited to project, services, and tech stack showcases, along with career portals, etc.`,
+    techStack: [
+      { skill: 'C#', icon: 'c-sharp' },
+      { skill: 'jQuery', icon: 'jquery' },
+      { skill: 'JavaScript', icon: 'javascript' },
+      { skill: 'HTML5', icon: 'html' },
+      { skill: 'CSS3', icon: 'css' },
+      { skill: 'Umbraco CMS', icon: 'umbraco' }
+    ],
+    link: 'https://www.firewater.net/',
+    image: '/assets/images/firewater.jpg'
   }
 ];
