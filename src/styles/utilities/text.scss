@@ -1,9 +1,21 @@
 .text {
-  &__lead {
-    font-size: 7em;
+
+  @media (min-width: 768px) {
+    &__lead {
+      font-size: 4em;
+    }
+    &__sublead{ 
+      font-size: 3em;
+    }
   }
-  &__sublead{ 
-    font-size: 6em;
+
+  @media (min-width: 1440px) {
+    &__lead {
+      font-size: 6em;
+    }
+    &__sublead{ 
+      font-size: 5em;
+    }
   }
   &__header-link {
     font-weight: 500;
