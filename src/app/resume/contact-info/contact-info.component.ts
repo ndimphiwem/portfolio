@@ -28,7 +28,9 @@ export class ContactInfoComponent implements OnInit {
     .append('subject', this.contactForm.value.subject)
     .append('message', this.contactForm.value.message);
     this.http.post('/', body.toString(), {headers: { 'Content-Type': 'application/x-www-form-urlencoded' }}).subscribe(
-      res => {},
+      res => {
+        alert('Your message has been sent!');
+      },
       err => {
         if (err instanceof ErrorEvent) {
           // client side error
@@ -37,6 +39,7 @@ export class ContactInfoComponent implements OnInit {
           // backend error. If status is 200, then the message successfully sent
           if (err.status === 200) {
             console.log('Your message has been sent!');
+            alert('Your message has been sent!');
           } else {
             console.log('Error status:');
             console.log(err.status);
