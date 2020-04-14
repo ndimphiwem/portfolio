@@ -10,6 +10,7 @@ import { EducationComponent } from './education/education.component';
 import { LinksComponent } from './links/links.component';
 import { ServicesComponent } from './services/services.component';
 import { UtilsModule } from '../utils/utils.module';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,7 @@ import { UtilsModule } from '../utils/utils.module';
     LinksComponent,
     ServicesComponent
   ],
-  imports: [CommonModule, UtilsModule],
+  imports: [CommonModule, UtilsModule, FormsModule, ReactiveFormsModule],
   exports: [
     BioComponent,
     ContactInfoComponent,

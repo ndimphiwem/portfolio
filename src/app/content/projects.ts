@@ -18,43 +18,46 @@ export const projects = [
   // },
   {
     title: 'Cuddlers',
-    description: `Creating and maintaining CMS modules for the Cuddlers website,
-    and redesigning the content site UI,
-    including but not limited to creating a competitions module that would allow users to add and administrate competitions
-    in the back-end portal that would automatically be visualized on the website,
-    also leading to detail pages for each competition.`,
+    description: `Website. UI Development. CMS Development. Content Management`,
+    // description: `Creating and maintaining CMS modules for the Cuddlers website,
+    // and redesigning the content site UI,
+    // including but not limited to creating a competitions module that would allow users to add and administrate competitions
+    // in the back-end portal that would automatically be visualized on the website,
+    // also leading to detail pages for each competition.`,
     techStack: [
       { skill: 'C#', icon: 'c-sharp' },
       { skill: 'jQuery', icon: 'jquery' },
       { skill: 'JavaScript', icon: 'javascript' },
       { skill: 'HTML5', icon: 'html' },
       { skill: 'CSS3', icon: 'css' },
-      { skill: 'Sitefinity CMS' }
+      { skill: 'Sitefinity CMS', icon: 'progress' }
     ],
     link: 'https://www.cuddlers.co.za/',
     image: '/assets/images/cuddlers.jpg'
   },
   {
     title: 'Plascon',
-    description: `Creating and maintaining CMS modules for the Plascon content website,
-    including but not limited to creating a products module that would allow users to add and
-    administrate products in the back-end tools that would automatically be visualized on the front-end products page,
-    also leading to detail pages for each product.`,
+    description: `Website. UI Development. CMS Development. Content Management`,
+    // description: `Creating and maintaining CMS modules for the Plascon content website,
+    // including but not limited to creating a products module that would allow users to add and
+    // administrate products in the back-end tools that would automatically be visualized on the front-end products page,
+    // also leading to detail pages for each product.`,
     techStack: [
       { skill: 'C#', icon: 'c-sharp' },
       { skill: 'jQuery', icon: 'jquery' },
       { skill: 'JavaScript', icon: 'javascript' },
       { skill: 'HTML5', icon: 'html' },
       { skill: 'CSS3', icon: 'css' },
-      { skill: 'Sitefinity CMS' }
+      { skill: 'Sitefinity CMS', icon: 'progress' }
     ],
     link: 'https://plascon.com/',
     image: '/assets/images/plascon.jpg'
   },
   {
     title: 'Firewater',
-    description: `Creating and maintaining the Firewater agency website, creating and maintaining CMS modules for content management,
-    including but not limited to project, services, and tech stack showcases, along with career portals, etc.`,
+    description: `Website. UI Development. CMS Development. Content Management`,
+    // description: `Creating and maintaining the Firewater agency website, creating and maintaining CMS modules for content management,
+    // including but not limited to project, services, and tech stack showcases, along with career portals, etc.`,
     techStack: [
       { skill: 'C#', icon: 'c-sharp' },
       { skill: 'jQuery', icon: 'jquery' },

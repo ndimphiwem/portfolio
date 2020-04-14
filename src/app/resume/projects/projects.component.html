@@ -5,14 +5,14 @@
           style="filter: grayscale(1) blur(0.5px);"/>
         <div class="card-body">
           <h5 class="card-title text--primary">{{ project?.title }}</h5>
-          <p class="card-text" style="height: 22ch;">
+          <p class="card-text">
             {{ project?.description }}
           </p>
           
           <h6 class="card-title text--primary">Built with:</h6>
           <ul class="list-unstyled row align-items-center">
             <li class="col-6 mb-3" *ngFor="let tech of project?.techStack">
-              <div class="row">
+              <div class="row align-items-center">
                 <div class="col-auto pr-0">
                   <i appSvg [svgName]="tech?.icon" [svgClass]="'icon__tech'"></i>
                 </div>
