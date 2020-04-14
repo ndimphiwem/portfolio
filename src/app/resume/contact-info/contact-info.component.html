@@ -13,6 +13,7 @@
     </div>
     <div class="col-md-6">
       <form [formGroup]="contactForm" name="contact" id='contact-form' method="post" (ngSubmit)="onSubmit()">
+          <input type="hidden" name="form-name" value="contact" />
             <div class="row">
               <div class="col-12 mb-3">
                 <input type="text" class="form-control" name="name" placeholder="Name"  formControlName="name" required>
