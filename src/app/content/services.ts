@@ -8,7 +8,7 @@ export const services = [
     {
       service: 'UI/UX Design',
       icon: 'uidesign',
-      description: `I design user clean and modern user interfaces that create exceptional user experiences.`
+      description: `I design clean and modern user interfaces that create exceptional user experiences.`
     },
     {
       service: 'UI/UX Development',
