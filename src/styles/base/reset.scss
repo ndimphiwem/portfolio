@@ -9,4 +9,14 @@ body, html {
     font-family: $montserrat-font-family;
 }
 
+body {
+  background-image: url(assets/images/body-bg.png);
+  background-attachment: fixed;
+  background-size:  cover;
+}
+
+section {
+  background-attachment: fixed;
+}
+
 textarea { resize: none; }
