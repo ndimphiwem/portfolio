@@ -83,21 +83,5 @@ export const projects = [
     ],
     link: 'https://plascon.com/',
     image: '/assets/images/plascon.png'
-  },
-  {
-    title: 'Firewater',
-    description: `Website. UI Development. CMS Development. Content Management`,
-    // description: `Creating and maintaining the Firewater agency website, creating and maintaining CMS modules for content management,
-    // including but not limited to project, services, and tech stack showcases, along with career portals, etc.`,
-    techStack: [
-      { skill: 'C#', icon: 'c-sharp' },
-      { skill: 'jQuery', icon: 'jquery' },
-      { skill: 'JavaScript', icon: 'javascript' },
-      { skill: 'HTML5', icon: 'html' },
-      { skill: 'CSS3', icon: 'css' },
-      { skill: 'Umbraco CMS', icon: 'umbraco' }
-    ],
-    link: 'https://www.firewater.net/',
-    image: '/assets/images/firewater.png'
   }
 ];
