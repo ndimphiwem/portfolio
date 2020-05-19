@@ -1,10 +1,11 @@
-<div class="row justify-content-center">
-    <div class="col-md-6 col-lg-4 mb-3 " *ngFor="let project of projects">
-      <div class="card p-2 h-100">
-        <img [src]="project?.image" class="card-img-top project-image p-2" [alt]="project?.title"
-          style="filter: grayscale(1) blur(0.5px);"/>
-        <div class="card-body">
-          <h5 class="card-title text--primary">{{ project?.title }}</h5>
+<div class="row justify-content-center align-items-center mb-5 py-5"  *ngFor="let project of projects; let odd = odd; let even = even;">
+  <div class="col-md-6 col-lg-7 mb-3" [ngClass]="{'order-md-last': odd}">
+    <img [src]="project?.image" class="w-100 project-image p-2" [alt]="project?.title"/>
+  </div>
+    <div class="col-md-6 col-lg-4 mb-3 ">
+      <div class="p-2">
+        <div class="">
+          <h1 class="h1-responsive text--primary mb-3">{{ project?.title }}</h1>
           <p class="card-text">
             {{ project?.description }}
           </p>

@@ -17,6 +17,21 @@ export const projects = [
   //   image: ``
   // },
   {
+    title: 'Bidvest Bank',
+    description: `Website. UI Development. Content Management`,
+    // description: `Creating and maintaining the Firewater agency website, creating and maintaining CMS modules for content management,
+    // including but not limited to project, services, and tech stack showcases, along with career portals, etc.`,
+    techStack: [
+      { skill: 'NodeJS', icon: 'nodejs' },
+      { skill: 'Angular 8', icon: 'angular'},
+      { skill: 'TypeScript', icon: 'typescript' },
+      { skill: 'HTML5', icon: 'html' },
+      { skill: 'CSS3', icon: 'css' }
+    ],
+    link: 'https://www.bidvestbank.co.za/',
+    image: '/assets/images/bidvest.png'
+  },
+  {
     title: 'Cuddlers',
     description: `Website. UI Development. CMS Development. Content Management`,
     // description: `Creating and maintaining CMS modules for the Cuddlers website,
@@ -33,7 +48,23 @@ export const projects = [
       { skill: 'Sitefinity CMS', icon: 'progress' }
     ],
     link: 'https://www.cuddlers.co.za/',
-    image: '/assets/images/cuddlers.jpg'
+    image: '/assets/images/cuddlers.png'
+  },
+  {
+    title: 'Firewater',
+    description: `Website. UI Development. CMS Development. Content Management`,
+    // description: `Creating and maintaining the Firewater agency website, creating and maintaining CMS modules for content management,
+    // including but not limited to project, services, and tech stack showcases, along with career portals, etc.`,
+    techStack: [
+      { skill: 'C#', icon: 'c-sharp' },
+      { skill: 'jQuery', icon: 'jquery' },
+      { skill: 'JavaScript', icon: 'javascript' },
+      { skill: 'HTML5', icon: 'html' },
+      { skill: 'CSS3', icon: 'css' },
+      { skill: 'Umbraco CMS', icon: 'umbraco' }
+    ],
+    link: 'https://www.firewater.net/',
+    image: '/assets/images/firewater.png'
   },
   {
     title: 'Plascon',
@@ -51,7 +82,7 @@ export const projects = [
       { skill: 'Sitefinity CMS', icon: 'progress' }
     ],
     link: 'https://plascon.com/',
-    image: '/assets/images/plascon.jpg'
+    image: '/assets/images/plascon.png'
   },
   {
     title: 'Firewater',
@@ -67,6 +98,6 @@ export const projects = [
       { skill: 'Umbraco CMS', icon: 'umbraco' }
     ],
     link: 'https://www.firewater.net/',
-    image: '/assets/images/firewater.jpg'
+    image: '/assets/images/firewater.png'
   }
 ];
