@@ -1,5 +1,5 @@
 <div class="row justify-content-center align-items-center mb-5 py-5"  *ngFor="let project of projects; let odd = odd; let even = even;">
-  <div class="col-md-6 col-lg-7 mb-3" [ngClass]="{'order-md-last': odd}">
+  <div class="col-md-6 col-lg-6 mb-3" [ngClass]="{'order-md-last': odd}">
     <img [src]="project?.image" class="w-100 project-image p-2" [alt]="project?.title"/>
   </div>
     <div class="col-md-6 col-lg-4 mb-3 ">

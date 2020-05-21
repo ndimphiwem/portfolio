@@ -18,7 +18,7 @@ export const projects = [
   // },
   {
     title: 'Bidvest Bank',
-    description: `Website. UI Development. Content Management`,
+    description: `Website. UI Development. Content Management.`,
     // description: `Creating and maintaining the Firewater agency website, creating and maintaining CMS modules for content management,
     // including but not limited to project, services, and tech stack showcases, along with career portals, etc.`,
     techStack: [
@@ -32,8 +32,24 @@ export const projects = [
     image: '/assets/images/bidvest.png'
   },
   {
+    title: 'Respawn Esports',
+    description: `Website. CMS Development. UI/UX Design. UI Development. Content Management.`,
+    // description: `Creating and maintaining the Firewater agency website, creating and maintaining CMS modules for content management,
+    // including but not limited to project, services, and tech stack showcases, along with career portals, etc.`,
+    techStack: [
+      { skill: 'Comfortable', icon: 'comfortable' },
+      { skill: 'NodeJS', icon: 'nodejs' },
+      { skill: 'Angular 8', icon: 'angular'},
+      { skill: 'TypeScript', icon: 'typescript' },
+      { skill: 'HTML5', icon: 'html' },
+      { skill: 'CSS3', icon: 'css' }
+    ],
+    link: 'https://respawn.co.za/',
+    image: '/assets/images/respawn.png'
+  },
+  {
     title: 'Cuddlers',
-    description: `Website. UI Development. CMS Development. Content Management`,
+    description: `Website. UI Development. CMS Development. Content Management.`,
     // description: `Creating and maintaining CMS modules for the Cuddlers website,
     // and redesigning the content site UI,
     // including but not limited to creating a competitions module that would allow users to add and administrate competitions
@@ -52,7 +68,7 @@ export const projects = [
   },
   {
     title: 'Firewater',
-    description: `Website. UI Development. CMS Development. Content Management`,
+    description: `Website. UI Development. CMS Development. Content Management.`,
     // description: `Creating and maintaining the Firewater agency website, creating and maintaining CMS modules for content management,
     // including but not limited to project, services, and tech stack showcases, along with career portals, etc.`,
     techStack: [
@@ -68,7 +84,7 @@ export const projects = [
   },
   {
     title: 'Plascon',
-    description: `Website. UI Development. CMS Development. Content Management`,
+    description: `Website. UI Development. CMS Development. Content Management.`,
     // description: `Creating and maintaining CMS modules for the Plascon content website,
     // including but not limited to creating a products module that would allow users to add and
     // administrate products in the back-end tools that would automatically be visualized on the front-end products page,
